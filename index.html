@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantilla de Gestión de Redes Sociales</title>
+    <title>Calendario Editorial Interactivo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            padding: 0;
             background-color: #f4f4f9;
             color: #333;
         }
@@ -16,26 +15,37 @@
             text-align: center;
             color: #18113F;
         }
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        th, td {
+        th {
+            background-color: #27103C;
+            color: white;
+            padding: 10px;
+        }
+        td {
             border: 1px solid #ccc;
             text-align: center;
             padding: 10px;
         }
-        th {
-            background-color: #2CC315;
-            color: white;
+        input {
+            width: 90%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
         }
         button {
             background-color: #2CC315;
             color: white;
             border: none;
             padding: 10px 20px;
-            text-align: center;
             font-size: 16px;
             cursor: pointer;
             border-radius: 5px;
@@ -58,8 +68,8 @@
 </head>
 <body>
 
-<h1>Calendario Editorial de Redes Sociales</h1>
-<p style="text-align: center;">Organiza tu contenido y planifica tus publicaciones con esta plantilla. Maximiza tu alcance y optimiza tu estrategia.</p>
+<h1>Calendario Editorial Interactivo</h1>
+<p>Organiza tu contenido y planifica tus publicaciones con esta plantilla interactiva. Ingresa los detalles directamente.</p>
 
 <table>
     <thead>
@@ -72,22 +82,46 @@
     </thead>
     <tbody>
         <tr>
-            <td>Lunes</td>
-            <td>Instagram</td>
-            <td>Imagen/Infografía</td>
-            <td>10:00 AM</td>
+            <td style="background-color: #27103C; color: white;">Lunes</td>
+            <td><input type="text" placeholder="Ej: Instagram"></td>
+            <td><input type="text" placeholder="Ej: Imagen/Infografía"></td>
+            <td><input type="text" placeholder="Ej: 10:00 AM"></td>
         </tr>
         <tr>
-            <td>Martes</td>
-            <td>Facebook</td>
-            <td>Artículo/Blog</td>
-            <td>2:00 PM</td>
+            <td style="background-color: #27103C; color: white;">Martes</td>
+            <td><input type="text" placeholder="Ej: Facebook"></td>
+            <td><input type="text" placeholder="Ej: Artículo/Blog"></td>
+            <td><input type="text" placeholder="Ej: 2:00 PM"></td>
         </tr>
         <tr>
-            <td>Miércoles</td>
-            <td>Twitter</td>
-            <td>Hilo Informativo</td>
-            <td>6:00 PM</td>
+            <td style="background-color: #27103C; color: white;">Miércoles</td>
+            <td><input type="text" placeholder="Ej: Twitter"></td>
+            <td><input type="text" placeholder="Ej: Hilo Informativo"></td>
+            <td><input type="text" placeholder="Ej: 6:00 PM"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #27103C; color: white;">Jueves</td>
+            <td><input type="text" placeholder="Ej: LinkedIn"></td>
+            <td><input type="text" placeholder="Ej: Video"></td>
+            <td><input type="text" placeholder="Ej: 11:00 AM"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #27103C; color: white;">Viernes</td>
+            <td><input type="text" placeholder="Ej: TikTok"></td>
+            <td><input type="text" placeholder="Ej: Tutorial"></td>
+            <td><input type="text" placeholder="Ej: 3:00 PM"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #27103C; color: white;">Sábado</td>
+            <td><input type="text" placeholder="Ej: Instagram"></td>
+            <td><input type="text" placeholder="Ej: Story"></td>
+            <td><input type="text" placeholder="Ej: 8:00 PM"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #27103C; color: white;">Domingo</td>
+            <td><input type="text" placeholder="Ej: Facebook"></td>
+            <td><input type="text" placeholder="Ej: Resumen Semanal"></td>
+            <td><input type="text" placeholder="Ej: 9:00 AM"></td>
         </tr>
     </tbody>
 </table>
